@@ -44,5 +44,5 @@ def rle_decode(data):
         return decode
 decoded_val = rle_decode('5a3b4c') 
 print(decoded_val)
-# with open("encoded.txt", "a") as o:
-#     o.write(decoded_val)
+with open("encoded.txt", "a") as o:
+    o.write(decoded_val)
