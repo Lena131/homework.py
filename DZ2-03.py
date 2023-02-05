@@ -15,6 +15,7 @@ def mix_list(list_original):
     return list                                                 # Возвращаем список
 
 list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
 mixed_list = mix_list(list)
 print('Исходный список: ')
 print(list)
