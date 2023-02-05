@@ -3,6 +3,7 @@
 
 number = input('Введите число: ')
 sum = 0
+
 for i in str(number):
     if i != '.' and i != ',' and i != '-':
         sum += int(i)
