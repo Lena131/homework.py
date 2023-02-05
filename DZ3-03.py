@@ -4,6 +4,7 @@
 
 list = [2.321, 1.2, 3.1111, 5.002, 10.1]
 new_list = []
+
 for i in range(len(list)):
     if list[i] % 1 != 0:
         new_list.append(list[i])
