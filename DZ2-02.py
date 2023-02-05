@@ -4,4 +4,4 @@
 num = int(input('Ввеите число: '))
 
 my_list = [(1+1/n)**n for n in range(1, num+1)]
-print(f'Последовательность чисел при n = {num}: {my_list}\nСумма элементов списка: {round(sum(my_list), 2)}')
+print(f'Последовательность чисел при n = {num}:{my_list}\nСумма элементов списка: {round(sum(my_list), 2)}')
